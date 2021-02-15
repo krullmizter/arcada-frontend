@@ -1,0 +1,65 @@
+#login {
+    background-color: var(--green);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#logout {
+    background-color: var(--red);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#hacker {
+    background-color: var(--red);
+    text-align: center;
+    padding: 2rem;
+}
+
+#closeHacker {
+    font-size: 2.3rem;
+    margin: 2rem 3.5rem;
+    color: var(--primary);
+    float: right;
+    cursor: pointer;
+}
+
+.flipIcon {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+#range-wrapper,
+#effects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+#effects #imgEffect {
+    width: 100%;
+    max-width: 35rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#effects .effects-buttons input:not(:last-of-type) {
+    margin-right: 1rem;
+}
+
+#autocompleteWrapper {
+    margin-top: 3rem;
+}
+
+#report h4 {
+    margin-top: 2.5rem;
+}
+
+#report li {
+    list-style: circle;
+    margin: 5px 3rem;
+}

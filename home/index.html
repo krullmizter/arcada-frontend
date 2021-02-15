@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.src.js"></script> 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://kit.fontawesome.com/e17aad6c5d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/typo.css">
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <title>Project 3 | jQuery & AJAX</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="info">
+                <h1>Project 3 - jQuery & AJAX</h1>
+
+                <div class="navbar-menu">
+                    <a href="../report/index.html">The report</a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Free Money!</a>
+                </div>
+            </div>
+
+            <div id="user">
+                <p id="login">Login <i class="fas fa-sign-in-alt"></i></p>
+                    <div id="accountInfo">
+                        <p id="accountName"></p>
+                        <p id="visits"></p>
+                    </div>
+                <p id="logout">Logout <i class="fas fa-undo-alt"></i></p>
+            </div>
+        </nav>
+
+        <div id="hacker">
+            <p id="ip"></p>
+            <p>Quickly buy our #1 HackerVPN</p>
+        </div>
+
+        <i id="closeHacker" class="fas fa-chevron-up"></i>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col">
+                <h2> #1 - jQuery DOM</h2>
+                <div id="effects">
+                    <img src="../images/wow.gif" alt="wow" id="imgEffect">
+
+                    <div class="effects-buttons">
+                        <input type="button" class="toggle" value="Toggle" />
+                        <input type="button" class="explode" value="Explode" />
+                        <input type="button" class="wow" value="Wow">
+                        <input type="button" class="gsapEx" value="Cool Stuff" />
+                        <input type="range" min="0.1" max="1.0" value="1.0" step="0.1" class="range" id="opacity">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h2> #2 - Widgets</h2>
+                <h6>Change background color</h6>
+                <div id="range-wrapper">
+                    <input type="range" min="0" max="255" value="127.5" class="range" id="rangeRed">
+                    <input type="range" min="0" max="255" value="127.5" class="range" id="rangeGreen">
+                    <input type="range" min="0" max="255" value="127.5" class="range" id="rangeBlue">
+                    <p>RGB: <span id="rangeRGB"></span></p>
+                </div>
+                
+                <div id="autocompleteWrapper">
+                    <h6>Input autocomplete</h6>
+                    <p>Type in energy boosters (Coffee)</p>
+                    <input type="text" name="autocomplete" id="autocomplete" placeholder="Type here"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+            <h2 id="ajax-heading"> #4 - Ajax</h2>
+                <input type="button" value="I dare you" id="secret"/>
+                <div id="ascii"></div>
+            </div>
+
+            <div class="col">
+                <h2> #5 - JSON</h2>
+                <p id="weather"></p>
+
+                <div class="weather-wrapper">
+                    <input type="text" name="location" id="location" placeholder="Check the weather" />
+                    <input type="button" value="Check the weather" id="lookup"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2> #6 - Charts</h2>
+                <div id="charts">
+                    <div id="google-charts"></div>
+                    <div id="highcharts"></div>
+                    <div id="chartjs-wrapper">
+                        <canvas id="chart-js" width="600" height="250"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by: Samuel Granvik &copy; <span id="year"></span></p>
+    </footer>
+</body>
+<script src="../javascript/script.js"></script>
+</html>

@@ -1,0 +1,127 @@
+/* Navbar style */
+#navbar .logo {
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
+}
+
+#navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 3.5rem;
+    background-color: var(--primary);
+}
+
+#navbar h1 {
+    color: var(--white);
+    margin-bottom: 1.25rem;
+}
+
+#navbar #info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.navbar-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.navbar-menu a:hover {
+    border-bottom: 3px solid var(--red);
+}
+
+.navbar-menu a:not(:last-of-type) {
+    margin-right: 5rem;
+}
+
+#navbar #user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+#navbar #user p {
+    margin-top: 1rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+/* Main rows & cols */
+main .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    padding: 3.5rem;
+}
+
+main .row .col {
+    margin: 1rem 5rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+main .row .col h2 {
+    margin-bottom: 1rem;
+}
+
+/* ETC */
+input {
+    margin: 1rem 0;
+}
+
+input[type="button"] .loginBtn {
+    background-color: var(--green);
+}
+
+.ui-autocomplete {
+    background-color: #ffffff;
+    width: 20rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.ui-autocomplete-category {
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.ui-autocomplete-category,
+.ui-menu-item {
+    padding: .2em .4em;
+}
+
+.ui-menu-item {
+    cursor: pointer;
+}

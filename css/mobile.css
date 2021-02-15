@@ -1,0 +1,20 @@
+@media screen and (max-width: 980px) {
+    main .row,
+    #navbar {
+        padding: 1.25rem;
+    }
+
+    #navbar h1 {
+        font-size: 3.5rem;
+    }
+
+    main .row .col {
+        margin: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+    }    
+}

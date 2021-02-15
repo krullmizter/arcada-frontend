@@ -1,0 +1,95 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 4.75rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h5 {
+    font-size: 2.6rem;
+}
+
+h6 {
+    font-size: 2.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: var(--primary);
+}
+
+p,
+li,
+input {
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.navbar-menu a {
+    font-weight: 500;
+}
+
+#hacker p {
+    color: var(--white);
+    font-weight: 500;
+}
+
+main .row .col h3 {
+    margin-bottom: 1rem;
+}
+
+a {
+    font-size: 2rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+input[type="button"] {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 2.5px;
+    padding: 7.5px 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    text-align: initial;
+}
+
+li {
+    list-style: none;
+}
+
+footer p {
+    color: var(--white);
+}

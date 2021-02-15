@@ -1,0 +1,9 @@
+:root {
+    --primary: #4b6078;
+    --white: #fbf5f3;
+    --black: #232423;
+    --transparent: rgba(255, 255, 255, 0);
+    --red: #de4551;
+    --green: #73aa55;
+    --yellow: #ffb238;
+}

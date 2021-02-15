@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--white);
+}
+
+footer {
+    padding: 2.5rem 3.5rem;
+    background-color: var(--primary);
+    text-align: center;
+}
