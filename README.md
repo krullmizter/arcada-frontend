@@ -4,3 +4,11 @@ A pure front-end website by me Samuel 👋 for my first year [Arcada](https://ww
 - jQuery
 - AJAX
 - Cookies & LocalStorage
+
+#### Tasks
+- DOM Manipulation
+- jQuery UI
+- User management
+- AJAX
+- JSON
+- Charts
